@@ -1,0 +1,8 @@
+{
+  "@class" : "org.apereo.cas.services.RegexRegisteredService",
+  "serviceId" : "^(http|https)://.*localhost.*",
+  "name" : "HTTP and HTTPS Requests from localhost",
+  "id" : 10000004,
+  "description" : "This service definition authorizes applications running at localhost",
+  "evaluationOrder" : 10000
+}

@@ -1,0 +1,8 @@
+{
+  "@class" : "org.apereo.cas.services.RegexRegisteredService",
+  "serviceId" : "^(http|https)://.*\\.comprodls\\.com.*",
+  "name" : "HTTP and HTTPS Requests from *.comprodls.com applications",
+  "id" : 10000003,
+  "description" : "This service definition authorizes all *.comprodls.com applications",
+  "evaluationOrder" : 10000
+}
